@@ -1,4 +1,27 @@
 # expense-reports
+
+## Project Description
+
+**Expense Reports** is a full-stack web application designed to streamline the process of managing employee expense reports. The system enables employees to create and submit monthly expense reports while providing administrators with the tools to review, approve, or reject these submissions.
+
+### Key Features
+
+- **Employee Dashboard**: Allows employees to log and submit their monthly expense reports
+- **Admin Dashboard**: Provides administrators with a comprehensive interface to review, filter, and manage expense reports
+- **Authentication System**: Secure user authentication and authorization
+- **Multi-language Support**: Supports both English and Arabic languages
+- **Theme Support**: Light and dark theme options
+- **Status Tracking**: Track the status of expense reports (pending, approved, rejected)
+
+### Technology Stack
+
+- **Frontend**: React + Vite with modern UI components
+- **Backend**: FastAPI (Python) with RESTful API architecture
+- **Database**: PostgreSQL (configured via database models)
+- **State Management**: React Context API for authentication, theme, and language
+
+---
+
 A system that allows employees to log their monthly expense reports.
 
 ---
