@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = {extras = ["all"], version = "*"}
+uvicorn = "*"
+sqlalchemy = "*"
+psycopg2 = "*"
+pydantic = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
+passlib = {extras = ["bcrypt"], version = "==1.7.4"}
+bcrypt = "==3.2.2"
+python-multipart = "*"
+cloudinary = "*"
+authlib = "*"
+
+[requires]
+python_version = "3.8"

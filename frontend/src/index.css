@@ -1,0 +1,30 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #0F0F0F;
+  --highlight-color: #FF0033;
+}
+
+[data-theme="dark"] {
+  --bg-color: #0F0F0F !important;
+  --text-color: #ffffff !important;
+  --highlight-color: #FF0033 !important;
+}
+
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  transition: all 0.3s ease;
+}
+
+.highlight {
+  color: var(--highlight-color) !important;
+}
+
+.navbar, .card, .form-control {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+.btn {
+  color: var(--text-color) !important;
+}

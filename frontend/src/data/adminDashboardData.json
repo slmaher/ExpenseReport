@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "date": "2024-01-15",
+    "user": "John Doe",
+    "amount": 150.0,
+    "requestTitle": "Office Supplies",
+    "status": "financed",
+    "description": "Purchase of office supplies including paper, pens, and notebooks",
+    "category": "Office Supplies",
+    "receiptUrl": "https://example.com/receipt1.jpg",
+    "submittedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "date": "2024-01-20",
+    "user": "Jane Smith",
+    "amount": 89.99,
+    "requestTitle": "Software License",
+    "status": "pending",
+    "description": "Annual subscription for design software",
+    "category": "Software",
+    "receiptUrl": "https://example.com/receipt2.jpg",
+    "submittedAt": "2024-01-20T14:15:00Z"
+  },
+  {
+    "id": 3,
+    "date": "2024-01-25",
+    "user": "Mike Johnson",
+    "amount": 250.0,
+    "requestTitle": "Travel Expenses",
+    "status": "rejected",
+    "description": "Hotel accommodation for business trip",
+    "category": "Travel",
+    "receiptUrl": "https://example.com/receipt3.jpg",
+    "submittedAt": "2024-01-25T09:00:00Z"
+  },
+  {
+    "id": 4,
+    "date": "2024-01-28",
+    "user": "Sarah Wilson",
+    "amount": 75.5,
+    "requestTitle": "Team Lunch",
+    "status": "pending",
+    "description": "Team building lunch meeting",
+    "category": "Meals",
+    "receiptUrl": "https://example.com/receipt4.jpg",
+    "submittedAt": "2024-01-28T12:00:00Z"
+  },
+    {
+    "id": 5,
+    "date": "2024-02-28",
+    "user": "Sarah Wilson",
+    "amount": 75.5,
+    "requestTitle": "Team Lunch",
+    "status": "pending",
+    "description": "Team building lunch meeting",
+    "category": "Meals",
+    "receiptUrl": "https://example.com/receipt4.jpg",
+    "submittedAt": "2024-01-28T12:00:00Z"
+  }
+]

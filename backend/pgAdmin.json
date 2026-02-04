@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "CONNECTION_NAME",
+      "Group": "GROUP_TEST",
+      "Host": "pg-yvse-et-loayahmed304-yvse-et.i.aivencloud.com",
+      "Port": 14650,
+      "MaintenanceDB": "defaultdb",
+      "Username": "avnadmin",
+      "SSLMode": "require"
+    }
+  }
+}

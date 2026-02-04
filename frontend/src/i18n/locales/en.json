@@ -1,0 +1,141 @@
+{
+    "navbar": {
+        "welcome": "Welcome",
+        "userInfo": "User Info"
+    },
+    "login": {
+        "login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "usernamePlaceholder": "Enter your username",
+        "passwordPlaceholder": "Enter your password",
+        "signIn": "Sign in",
+        "signingIn": "Signing In...",
+        "usernameRequired": "Username is required",
+        "passwordRequired": "Password is required",
+        "passwordMinLength": "Password must be at least 6 characters",
+        "loginFailed": "Login failed. Please try again.",
+        "invalidCredentials": "Invalid username or password",
+        "serverError": "Server error, please try again later",
+        "googleLogin": "Login with Google",
+        "noAccount": "Don't have an account?",
+        "signUp": "Create one"
+    },
+    "register": {
+        "register": "Create Account",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "username": "Username",
+        "email": "Email Address",
+        "password": "Password",
+        "firstNamePlaceholder": "Enter your first name",
+        "lastNamePlaceholder": "Enter your last name",
+        "usernamePlaceholder": "Choose a username",
+        "emailPlaceholder": "Enter your email address",
+        "passwordPlaceholder": "Create a password",
+        "createAccount": "Register",
+        "registering": "Creating Account...",
+        "firstNameRequired": "First name is required",
+        "lastNameRequired": "Last name is required",
+        "usernameRequired": "Username is required",
+        "usernameMinLength": "Username must be at least 3 characters",
+        "emailRequired": "Email address is required",
+        "emailInvalid": "Please enter a valid email address",
+        "passwordRequired": "Password is required",
+        "passwordMinLength": "Password must be at least 6 characters",
+        "registrationFailed": "Registration failed. Please try again.",
+        "userExists": "Username or email already exists",
+        "invalidData": "Invalid registration data",
+        "serverError": "Server error, please try again later",
+        "haveAccount": "Already have an account?",
+        "signIn": "Sign in"
+    },
+    "userInfo": {
+        "title": "User Information",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "username": "Username",
+        "email": "Email",
+        "joinDate": "Join Date",
+        "lastUpdate": "Last Update",
+        "role": "Role",
+        "phone": "Phone Number",
+        "editProfile": "Edit Profile",
+        "logout": "Logout",
+        "loading": "Loading...",
+        "notAvailable": "Not Available",
+        "unknownUser": "Unknown User",
+        "save": "Save",
+        "cancel": "Cancel",
+        "avatar": "Avatar"
+    },
+    "adminDashboard": {
+        "pageTitle": "REQUESTS",
+        "pageTitleHighlight": "HISTORY",
+        "employeeFilter": "Employee:",
+        "monthFilter": "Month:",
+        "allEmployees": "All Employees",
+        "allMonths": "All Months",
+        "showingReports": "Showing {{count}} of {{total}} reports",
+        "tableHeaders": {
+            "date": "Date",
+            "user": "User",
+            "requestTitle": "Request Title",
+            "amount": "Amount",
+            "status": "Status",
+            "details": "Details",
+            "actions": "Actions"
+        },
+        "statuses": {
+            "pending": "pending",
+            "financed": "financed",
+            "rejected": "rejected"
+        },
+        "buttons": {
+            "details": "Details",
+            "finance": "Finance",
+            "reject": "Reject"
+        },
+        "noResults": "No reports found matching the selected filters.",
+        "months": {
+            "2024-01": "January 2024",
+            "2024-02": "February 2024",
+            "2024-03": "March 2024",
+            "2024-04": "April 2024"
+        },
+        "messages": {
+            "reportFinanced": "Report financed successfully!",
+            "reportRejected": "Report rejected successfully!",
+            "financeFailed": "Failed to finance report",
+            "rejectFailed": "Failed to reject report",
+            "rejectionReasonRequired": "Please provide a rejection reason"
+        }
+    },
+    "modals": {
+        "rejectModal": {
+            "title": "Reject Report",
+            "description": "Please provide a reason for rejecting this expense report:",
+            "reportLabel": "Report:",
+            "placeholder": "Please explain why this report is being rejected...",
+            "cancel": "Cancel",
+            "rejectReport": "Reject Report",
+            "close": "Close modal",
+            "reasonLabel": "Rejection reason",
+            "helpText": "Please provide a reason for rejection"
+        },
+        "reportDetails": {
+            "title": "Report Details",
+            "date": "Date:",
+            "user": "User:",
+            "requestTitle": "Request Title:",
+            "amount": "Amount:",
+            "category": "Category:",
+            "description": "Description:",
+            "status": "Status:",
+            "submitted": "Submitted:",
+            "receiptFile": "Receipt File:",
+            "viewReceipt": "📄 View Receipt",
+            "rejectionReason": "Rejection Reason:"
+        }
+    }
+}
